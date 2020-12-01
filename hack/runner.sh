@@ -16,7 +16,7 @@
 #
 OPERATION=$1
 IMAGE_NAME=${IMAGE_NAME:-netapp/ez-rancher}
-IMAGE_TAG=${IMAGE_TAG:-latest}
+IMAGE_TAG=${IMAGE_TAG:-v0.1.0}
 TFVARS=${ER_VARS_FILE:-"${PWD}/rancher.tfvars"}
 DELIVERABLES=${ER_DELIVERABLES_DIR:-"${PWD}/deliverables"}
 
