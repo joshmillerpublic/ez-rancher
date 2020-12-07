@@ -133,7 +133,7 @@ variable "no_proxy" {
 # https://github.com/vmware/cloud-init-vmware-guestinfo/releases
 variable "cloud_init_vmware_guestinfo_version" {
   type    = string
-  default = "master"
+  default = "v1.4.1"
 }
 
 # https://github.com/rancher/install-docker

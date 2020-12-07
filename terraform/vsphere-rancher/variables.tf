@@ -196,11 +196,11 @@ variable "rancher_service_cidr" {
 # https://github.com/rancher/terraform-provider-rke/releases
 variable "kubernetes_version" {
   type    = string
-  default = null
+  default = "v1.19.3-rancher1-2"
 }
 
 # https://github.com/rancher/rancher/releases
 variable "rancher_version" {
   type    = string
-  default = ""
+  default = "2.5.3"
 }
