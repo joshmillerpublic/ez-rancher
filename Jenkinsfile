@@ -10,7 +10,7 @@ void setBuildStatus(String message, String state) {
 
 pipeline {
     triggers {
-        cron(env.BRANCH_NAME == 'main' ? '0 */4 * * *' : '')
+        cron(env.BRANCH_NAME == 'main' ? '0 0 * * 0' : '')
     }
     agent {
       kubernetes {
